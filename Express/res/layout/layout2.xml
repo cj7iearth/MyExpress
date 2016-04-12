@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFCD"
+    android:stretchColumns="1"
+>
+    <Space /> 
+    <Space />
+    <Space />
+
+    <TableRow >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="信息填写"
+            android:layout_span="2"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+    <TableRow >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="寄件人信息"
+            android:layout_span="2"
+            android:textSize="20sp"/>
+
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent" >
+
+        <TextView android:text="姓名：" />
+
+        <EditText
+            android:id="@+id/senderName"
+            android:ems="10"
+            android:hint="请输入寄件人姓名"
+            android:maxLines="1"
+            android:maxWidth="100dp" >
+
+            <requestFocus />
+        </EditText>
+
+    </TableRow>
+    <TableRow >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电话(手机)：" />
+
+        <EditText
+            android:id="@+id/senderPhone"
+            android:layout_width="wrap_content"
+            android:hint="请输入寄件人电话"
+            android:maxLines="1"
+            android:maxWidth="100dp" />
+
+    </TableRow>
+    <TableRow >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单位名称：" />
+
+        <EditText
+            android:id="@+id/companyName"
+            android:layout_width="wrap_content"
+            android:hint="请输入单位名称"
+            android:maxLines="2"
+            android:maxWidth="100dp" />
+
+    </TableRow>
+    <TableRow >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="寄件地址：" />
+
+        <EditText
+            android:id="@+id/senderAddress"
+            android:layout_width="wrap_content"
+            android:hint="请输入寄件人地址"
+            android:maxLines="2"
+            android:maxWidth="100dp" />
+
+    </TableRow>
+    
+        
+     <TableRow >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="收件人信息"
+            android:layout_span="2"
+            android:textSize="20sp"/>
+
+    </TableRow>
+     <TableRow android:layout_width="match_parent" >
+
+        <TextView android:text="姓名：" />
+
+        <EditText
+            android:id="@+id/receiverName"
+            android:ems="10"
+            android:hint="请输入收件人姓名"
+            android:maxLines="1"
+            android:maxWidth="100dp" >
+
+            <requestFocus />
+        </EditText>
+
+    </TableRow>
+    <TableRow >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电话(手机)：" />
+
+        <EditText
+            android:id="@+id/receiverPhone"
+            android:layout_width="wrap_content"
+            android:hint="请输入收件人电话"
+            android:maxLines="1"
+            android:maxWidth="100dp" />
+
+    </TableRow>
+    <TableRow >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单位名称：" />
+
+        <EditText
+            android:id="@+id/receivercompanyName"
+            android:layout_width="wrap_content"
+            android:hint="请输入收件人单位名称"
+            android:maxLines="2"
+            android:maxWidth="100dp" />
+
+    </TableRow>
+    <TableRow >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收件地址：" />
+
+        <EditText
+            android:id="@+id/receiverAddress"
+            android:layout_width="wrap_content"
+            android:hint="请输入收件人地址"
+            android:maxLines="2"
+            android:maxWidth="100dp" />
+
+    </TableRow>
+    <TableRow >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="物件名称：" />
+
+        <EditText
+            android:id="@+id/thingName"
+            android:layout_width="wrap_content"
+            android:hint="请输入物件名称"
+            android:maxLines="1"
+            android:maxWidth="100dp" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/buttonVerify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认" />
+
+</TableLayout>
