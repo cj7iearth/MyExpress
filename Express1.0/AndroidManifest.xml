@@ -5,15 +5,10 @@
     android:versionName="1.0" >
 
     <uses-sdk
-<<<<<<< HEAD
         android:minSdkVersion="17"
         android:targetSdkVersion="23" />
     <uses-permission android:name="android.permission.CALL_PHONE"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-=======
-        android:minSdkVersion="18"
-        android:targetSdkVersion="23" />
->>>>>>> 236054a6a4a0979c5f61445d61e749266e886a2d
 
     <application
         android:allowBackup="true"
@@ -35,7 +30,6 @@
         </activity>
         <activity android:name=".Verification" >
         </activity>
-<<<<<<< HEAD
         <activity
             android:name=".Ssd3"
             android:label="@string/title_activity_ssd3" >
@@ -56,8 +50,6 @@
             android:name=".Callpage4"
             android:label="@string/title_activity_callpage4" >
         </activity>
-=======
->>>>>>> 236054a6a4a0979c5f61445d61e749266e886a2d
     </application>
 
 </manifest>

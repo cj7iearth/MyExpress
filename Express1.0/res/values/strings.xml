@@ -4,13 +4,10 @@
     <string name="app_name">Express</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-<<<<<<< HEAD
     <string name="title_activity_ssd3">Ssd3</string>
     <string name="title_activity_callpage">Callpage</string>
     <string name="title_activity_callpage2">Callpage2</string>
     <string name="title_activity_callpage3">Callpage3</string>
     <string name="title_activity_callpage4">Callpage4</string>
-=======
->>>>>>> 236054a6a4a0979c5f61445d61e749266e886a2d
 
 </resources>

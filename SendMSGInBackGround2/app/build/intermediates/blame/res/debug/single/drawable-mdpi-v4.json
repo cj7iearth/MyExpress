@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\tongtong\\Desktop\\SendMassage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon.png",
+        "source": "C:\\Users\\tongtong\\Desktop\\SendMassage\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\tongtong\\Desktop\\SendMSGInBackGround2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon.png",
+        "source": "C:\\Users\\tongtong\\Desktop\\SendMSGInBackGround2\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\tongtong\\AndroidStudioProjects\\SendMSGInBackGround2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon.png",
+        "source": "C:\\Users\\tongtong\\AndroidStudioProjects\\SendMSGInBackGround2\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    }
+]

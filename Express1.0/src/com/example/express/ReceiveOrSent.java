@@ -24,7 +24,6 @@ public class ReceiveOrSent extends Activity {
 		startActivity(intent);
 		}
 		});   
-<<<<<<< HEAD
 		
 		Button button2 = (Button) findViewById(R.id.button2);
 		button2.setOnClickListener(new OnClickListener(){
@@ -40,12 +39,6 @@ public class ReceiveOrSent extends Activity {
 
 
 
-=======
-	}
-
-
-}
->>>>>>> 236054a6a4a0979c5f61445d61e749266e886a2d
 
 
 
