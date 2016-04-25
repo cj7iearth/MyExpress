@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout1bg1"
+    >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="166dp"
+        android:background="#1E90FF"
+        android:text="揽件" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="21dp"
+        android:background="#FF7F50"
+        android:text="派件" />
+
+</RelativeLayout>
+
+
+
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
